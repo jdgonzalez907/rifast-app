@@ -1,7 +1,6 @@
 export type TicketStatus = 'reserved' | 'paid';
 
 export interface Ticket {
-  id: string;
   status: TicketStatus;
   buyerName: string;
   buyerPhone: string;
